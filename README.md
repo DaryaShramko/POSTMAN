@@ -34,7 +34,7 @@ response:
 - в области **Query Params** вводим:
      1. KEY = name, VALUE = dasha; 
     2. KEY = age, VALUE = 25 
-- после ввода последних данных, в строке URL появляется следующее: `http://162.55.220.72:5005/get_method?name=dasha&age=int` 
+- после ввода последних данных, в строке URL появляется следующее: `http://162.55.220.72:5005/get_method?name=dasha&age=25` 
 - нажимаем Save > Send > Body (результат) 
 ``` python
  [
@@ -162,6 +162,7 @@ response:
 -   в строке URL добавляем `http://162.55.220.72:5005/object_info_2`
 -   в области **Query Params** вводим:
 -    1. KEY = name, VALUE = dasha; 
+-    2. KEY = age, VALUE = 25
 -    2. KEY = salary, VALUE = 500 
 -   после ввода последних данных, в строке URL появляется следующее: `http://162.55.220.72:5005/object_info_2?name=dasha&age=25&salary=500`  
 -  нажимаем Save > нажимаем Send 
@@ -218,18 +219,7 @@ response:
 -  1. KEY = name, VALUE = dasha; 
 -  2. KEY = age, VALUE = 25; 
 -  3. KEY = salary, VALUE = 500; 
--  4. KEY = family, VALUE = {'children': [['Alex', 24], ['Kate', 12]],
-                     'pets': {'cat':{'name':'Sunny',
-                                     'age': 3},
-                              'dog':{'name':'Luky',
-                                     'age': 4}},
-                     'u_salary_1_5_year': salary * 4}
-- после ввода последних данных, в строке URL появляется следующее: ` http://162.55.220.72:5005/object_info_3?name=dasha&age=25&salary=500&family={'children': [['Alex', 24], ['Kate', 12]],
-                     'pets': {'cat':{'name':'Sunny',
-                                     'age': 3},
-                              'dog':{'name':'Luky',
-                                     'age': 4}},
-                     'u_salary_1_5_year': salary * 4}` 
+- после ввода последних данных, в строке URL появляется следующее: ` http://162.55.220.72:5005/object_info_3?name=dasha&age=25&salary=500
 
  - нажимаем Save > нажимаем Send 
 - Body:
