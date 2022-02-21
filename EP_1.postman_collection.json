@@ -157,7 +157,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://162.55.220.72:5005/object_info_3?name=dasha&age=25&salary=500&family={'children': [['Alex', 24], ['Kate', 12]],\n                     'pets': {'cat':{'name':'Sunny',\n                                     'age': 3},\n                              'dog':{'name':'Luky',\n                                     'age': 4}},\n                     'u_salary_1_5_year': salary * 4}",
+					"raw": "http://162.55.220.72:5005/object_info_3?name=dasha&age=25&salary=500      
 					"protocol": "http",
 					"host": [
 						"162",
